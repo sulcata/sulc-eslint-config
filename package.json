@@ -1,15 +1,15 @@
 {
-  "name": "@sulcata/eslint-config",
+  "name": "@sulc/eslint-config",
   "version": "0.0.1",
   "description": "Some ESLint configs",
   "main": "index.js",
   "author": "sulcata",
   "bugs": {
-    "url": "https://github.com/sulcata/sulcata-eslint-config/issues"
+    "url": "https://github.com/sulcata/sulc-eslint-config/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/sulcata/sulcata-eslint-config"
+    "url": "https://github.com/sulcata/sulc-eslint-config"
   },
   "license": "MIT",
   "devDependencies": {

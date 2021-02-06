@@ -8,6 +8,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
+    "prettier/@typescript-eslint",
   ],
   rules: {
     "@typescript-eslint/unbound-method": "off",
@@ -22,12 +23,7 @@ module.exports = {
     "@typescript-eslint/member-ordering": [
       "error",
       {
-        default: [
-          "field",
-          "constructor",
-          "instance-method",
-          "static-method",
-        ],
+        default: ["field", "constructor", "instance-method", "static-method"],
       },
     ],
     "@typescript-eslint/method-signature-style": "error",

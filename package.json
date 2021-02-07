@@ -16,6 +16,7 @@
     "node": ">=10 <16"
   },
   "scripts": {
+    "release": "standard-version",
     "test": "npm run lint",
     "lint": "npm run prettier -- --check && npm run eslint && npm run commitlint",
     "lint:fix": "npm run prettier -- --write && npm run eslint -- --fix",
@@ -42,7 +43,8 @@
     "eslint-plugin-react": "^7.22.0",
     "eslint-plugin-react-hooks": "^4.2.0",
     "husky": "^4.3.8",
-    "prettier": "~2.2.1"
+    "prettier": "~2.2.1",
+    "standard-version": "^9.1.0"
   },
   "peerDependencies": {
     "@typescript-eslint/eslint-plugin": "^4.14.2",

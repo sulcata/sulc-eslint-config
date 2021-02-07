@@ -6,7 +6,9 @@ module.exports = {
       version: "detect",
     },
   },
-  env: { browser: true },
+  env: {
+    browser: true,
+  },
   plugins: ["jsx-a11y", "react", "react-hooks"],
   extends: [
     "plugin:jsx-a11y/strict",

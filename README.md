@@ -13,6 +13,7 @@ npm install @sulcata/eslint-config
 ```
 
 Sadly because of the way the configuration system currently works, you'll also need to install the following peer dependencies for now.
+
 ```bash
 npm install eslint-config-prettier eslint-plugin-jest eslint-plugin-jsx-a11y eslint-plugin-node eslint-plugin-react eslint-plugin-react-hooks
 ```
@@ -23,12 +24,14 @@ Once ESLint starts rolling out the [new configuration system](https://github.com
 
 This package exports a number of shareable configs that can be imported into your configuration using the ESLint config [`"extends"`](https://eslint.org/docs/user-guide/configuring/configuration-files#extending-configuration-files) key.
 
-* `@sulcata/eslint-config/recommended` for general JavaScript linting.
-* `@sulcata/eslint-config/typescript` for TypeScript linting.
-* `@sulcata/eslint-config/react` for React apps.
-* `@sulcata/eslint-config/jest` for Jest test suites.
+- `@sulcata/eslint-config` The kitchen sink, most likely what you want for minimal configuration. Pre-configured using the overrides feature to match file extensions to the appropriate configs. Includes `recommended`, `typescript`, `react`, and `jest`. Requires `tsconfigRootDir` and `project` to be configured in `parserOptions` for type information.
+- `@sulcata/eslint-config/recommended` for general JavaScript linting.
+- `@sulcata/eslint-config/typescript` for TypeScript linting. Requires `tsconfigRootDir` and `project` to be configured in `parserOptions` for type information.
+- `@sulcata/eslint-config/react` for React apps.
+- `@sulcata/eslint-config/jest` for Jest test suites.
 
-This is one possible `.eslintrc.js` config file using the `"overrides"` key to lint multiple projects.
+This is the simplest possible `.eslintrc.js` config.
+
 ```js
 "use strict";
 
@@ -38,21 +41,7 @@ module.exports = {
     tsconfigRootDir: __dirname,
     project: ["./tsconfig.json"],
   },
-  extends: ["@sulcata/eslint-config/recommended"],
-  overrides: [
-    {
-      files: "**/*.{ts,tsx}",
-      extends: ["@sulcata/eslint-config/typescript"],
-    },
-    {
-      files: "**/*.{jsx,tsx}",
-      extends: ["@sulcata/eslint-config/react"],
-    },
-    {
-      files: "**/*.{spec,test}.*",
-      extends: ["@sulcata/eslint-config/jest"],
-    },
-  ],
+  extends: ["@sulcata/eslint-config"],
 };
 ```
 

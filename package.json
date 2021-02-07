@@ -17,17 +17,21 @@
   },
   "scripts": {
     "test": "npm run lint",
-    "lint": "npm run prettier -- --check && npm run eslint",
+    "lint": "npm run prettier -- --check && npm run eslint && npm run commitlint",
     "lint:fix": "npm run prettier -- --write && npm run eslint -- --fix",
     "eslint": "eslint --max-warnings 0 '**/*.js'",
-    "prettier": "prettier '**/*.{js,json,md,yml,yaml}'"
+    "prettier": "prettier '**/*.{js,json,md,yml,yaml}'",
+    "commitlint": "commitlint --from origin/master --to HEAD"
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   },
   "devDependencies": {
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
     "@typescript-eslint/eslint-plugin": "^4.14.2",
     "@typescript-eslint/parser": "^4.14.2",
     "eslint": "^7.19.0",

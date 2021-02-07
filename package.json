@@ -12,6 +12,9 @@
     "url": "https://github.com/sulcata/sulcata-eslint-config"
   },
   "license": "MIT",
+  "engines": {
+    "node": ">=10 <16"
+  },
   "scripts": {
     "test": "npm run lint",
     "lint": "npm run prettier -- --check && npm run eslint",

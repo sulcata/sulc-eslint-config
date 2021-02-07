@@ -1,6 +1,11 @@
 # @sulcata/eslint-config
 
-![Node.js Package](https://github.com/sulcata/sulcata-eslint-config/workflows/Node.js%20Package/badge.svg)
+![npm latest version](https://img.shields.io/npm/v/@sulcata/eslint-config)
+![npm weekly downloads](https://img.shields.io/npm/dw/@sulcata/eslint-config)
+![GitHub](https://img.shields.io/github/license/sulcata/sulcata-eslint-config)
+![GitHub Workflow Deployment Status](https://img.shields.io/github/workflow/status/sulcata/sulcata-eslint-config/Node.js%20Package?label=deployment)
+![GitHub Workflow Integration Status](https://img.shields.io/github/workflow/status/sulcata/sulcata-eslint-config/Node.js%20CI?label=integration)
+![supported node versions](https://img.shields.io/node/v/@sulcata/eslint-config)
 
 A shareable set of [ESLint](https://eslint.org/) configurations for [TypeScript](https://www.typescriptlang.org/), [React](https://reactjs.org/), and more. Intended to be opinionated in practices, not style.
 

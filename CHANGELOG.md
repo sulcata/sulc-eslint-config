@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/sulcata/sulcata-eslint-config/compare/v0.1.1...v0.2.0) (2021-02-21)
+
+
+### ⚠ BREAKING CHANGES
+
+* update eslint-config-prettier@8, flag unused jsx
+
+### Features
+
+* update eslint-config-prettier, add jest alias suggestions ([4344eea](https://github.com/sulcata/sulcata-eslint-config/commit/4344eeac3851a2f4f7795dc29d3c440b530a3605))
+
 ### [0.1.1](https://github.com/sulcata/sulcata-eslint-config/compare/v0.0.1...v0.1.1) (2021-02-07)
 
 

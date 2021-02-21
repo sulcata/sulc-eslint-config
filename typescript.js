@@ -8,7 +8,7 @@ module.exports = {
   extends: [
     "plugin:@typescript-eslint/recommended",
     "plugin:@typescript-eslint/recommended-requiring-type-checking",
-    "prettier/@typescript-eslint",
+    require.resolve("eslint-config-prettier"),
   ],
   rules: {
     "@typescript-eslint/unbound-method": "off",

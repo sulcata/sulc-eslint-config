@@ -4,7 +4,7 @@ module.exports = {
   env: {
     es2021: true,
   },
-  extends: ["eslint:recommended", "prettier"],
+  extends: ["eslint:recommended", require.resolve("eslint-config-prettier")],
   rules: {
     "accessor-pairs": "error",
     "class-methods-use-this": "error",
@@ -42,7 +42,7 @@ module.exports = {
     "no-throw-literal": "error",
     "no-unmodified-loop-condition": "error",
     "no-unneeded-ternary": "error",
-    "no-unused-expressions": "error",
+    "no-unused-expressions": ["error", { enforceForJSX: true }],
     "no-useless-call": "error",
     "no-useless-concat": "error",
     "no-useless-rename": "error",

@@ -21,8 +21,8 @@ module.exports = {
       "error",
       {
         // replace jest/no-truthy-falsy
-        toBeFalsy: "Use `.toBe(false)` instead.",
-        toBeTruthy: "Use `.toBe(true)` instead.",
+        toBeFalsy: "Use `.toBe(false)` or coerce with `Boolean(value)`.",
+        toBeTruthy: "Use `.toBe(true)` or coerce with `Boolean(value)`.",
         // disable aliases
         toBeCalled: "Use `.toHaveBeenCalled` instead.",
         toBeCalledTimes: "Use `.toHaveBeenCalledTimes` instead.",

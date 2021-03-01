@@ -10,7 +10,7 @@ module.exports = {
     "class-methods-use-this": "error",
     "default-case": "error",
     eqeqeq: ["error", "always", { null: "ignore" }],
-    "func-style": ["error", "declaration", { allowArrowFunctions: true }],
+    "func-style": "error",
     "line-comment-position": "error",
     "max-depth": ["error", 3],
     "no-alert": "error",

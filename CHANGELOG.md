@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.3.0](https://github.com/sulcata/sulcata-eslint-config/compare/v0.2.0...v0.3.0) (2021-03-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* **recommended:** disallow function declarations
+
+### Features
+
+* **recommended:** disallow function declarations ([577cec7](https://github.com/sulcata/sulcata-eslint-config/commit/577cec72b5e558f54caa1f120e50f25e19da8cee))
+
 ## [0.2.0](https://github.com/sulcata/sulcata-eslint-config/compare/v0.1.1...v0.2.0) (2021-02-21)
 
 

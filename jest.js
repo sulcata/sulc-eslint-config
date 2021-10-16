@@ -12,7 +12,7 @@ module.exports = {
   ],
   rules: {
     "jest/consistent-test-it": "error",
-    "jest/lowercase-name": ["error", { ignore: ["test"] }],
+    "jest/prefer-lowercase-title": ["error", { ignore: ["test"] }],
     "jest/no-duplicate-hooks": "error",
     "jest/no-test-return-statement": "error",
     "jest/prefer-called-with": "error",

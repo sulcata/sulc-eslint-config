@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.4.1](https://github.com/sulcata/sulcata-eslint-config/compare/v0.4.0...v0.4.1) (2021-10-16)
+
+
+### Bug Fixes
+
+* remove unnecessary engines ([e994c33](https://github.com/sulcata/sulcata-eslint-config/commit/e994c33da71110a28a74e493f73813612729686b))
+
 ## [0.4.0](https://github.com/sulcata/sulcata-eslint-config/compare/v0.3.0...v0.4.0) (2021-10-16)
 
 

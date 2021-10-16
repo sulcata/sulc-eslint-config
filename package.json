@@ -23,7 +23,7 @@
     "lint:fix": "npm run prettier -- --write && npm run eslint -- --fix",
     "eslint": "eslint --max-warnings 0 '**/*.js'",
     "prettier": "prettier '**/*.{js,json,md,yml,yaml}'",
-    "commitlint": "commitlint --from origin/master --to HEAD"
+    "commitlint": "commitlint --from origin/main --to HEAD"
   },
   "devDependencies": {
     "@commitlint/cli": "^12.0.1",

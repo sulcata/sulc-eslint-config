@@ -12,9 +12,6 @@
     "url": "https://github.com/sulcata/sulcata-eslint-config"
   },
   "license": "MIT",
-  "engines": {
-    "node": ">=10 <16"
-  },
   "scripts": {
     "prepare": "husky install",
     "release": "standard-version",

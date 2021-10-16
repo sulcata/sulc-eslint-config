@@ -16,6 +16,7 @@ module.exports = {
     "jest/no-duplicate-hooks": "error",
     "jest/no-test-return-statement": "error",
     "jest/prefer-called-with": "error",
+    "jest/prefer-expect-resolves": "error",
     "jest/prefer-hooks-on-top": "error",
     "jest/no-restricted-matchers": [
       "error",

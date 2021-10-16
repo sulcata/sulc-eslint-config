@@ -14,7 +14,7 @@
   "license": "MIT",
   "scripts": {
     "prepare": "husky install",
-    "release": "standard-version",
+    "release": "standard-version --skip.tag",
     "test": "npm run lint",
     "lint": "npm run prettier -- --check && npm run eslint && npm run commitlint",
     "lint:fix": "npm run prettier -- --write && npm run eslint -- --fix",

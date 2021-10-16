@@ -26,10 +26,10 @@
     "commitlint": "commitlint --from origin/main --to HEAD"
   },
   "devDependencies": {
-    "@commitlint/cli": "^12.0.1",
-    "@commitlint/config-conventional": "^12.0.1",
-    "@typescript-eslint/eslint-plugin": "^4.16.1",
-    "@typescript-eslint/parser": "^4.16.1",
+    "@commitlint/cli": "^13.2.1",
+    "@commitlint/config-conventional": "^13.2.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-jest": "^25.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",
@@ -41,8 +41,8 @@
     "standard-version": "^9.3.1"
   },
   "peerDependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.15.1",
-    "@typescript-eslint/parser": "^4.15.1",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
     "eslint": "^7.20.0",
     "eslint-plugin-jest": "^25.2.1",
     "eslint-plugin-jsx-a11y": "^6.4.1",

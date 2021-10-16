@@ -38,5 +38,6 @@ module.exports = {
         toThrowError: "Use `.toThrow` instead.",
       },
     ],
+    "jest/require-hook": "error",
   },
 };

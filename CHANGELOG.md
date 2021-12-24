@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.0.0](https://github.com/sulcata/sulcata-eslint-config/compare/v0.4.1...v1.0.0) (2021-12-24)
+
+
+### ⚠ BREAKING CHANGES
+
+* **eslint:** update eslint to version 8 with necessary peer deps
+
+### Features
+
+* **eslint:** update eslint@8 ([c1c87fe](https://github.com/sulcata/sulcata-eslint-config/commit/c1c87fe637d73e8b039d8369df4906dbd17c1e71))
+
 ### [0.4.1](https://github.com/sulcata/sulcata-eslint-config/compare/v0.4.0...v0.4.1) (2021-10-16)
 
 
